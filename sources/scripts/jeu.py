@@ -583,14 +583,14 @@ class Jeu:
         
     def ouvrir_site(self):
         """
-        Ouvre une page web et dirige l'utilisateur vers un lien qui correspond au site du jeu.
-        Une fois sur le site, il pourra télécharger les dernières versions du jeu et suivre les actualités.
+        Ouvre une page web et dirige l'utilisateur vers un lien qui correspond au site du jeu que nous avons fait en html css js.
+        Une fois sur le site, il pourra télécharger la dernière version du jeu et suivre les actualités.
         
         entrée --> self : l'objet Jeu.
         
         sortie --> Ouverture d'une page web et dirige l'utilisateur vers le site de Tankmania.
         """
-        webbrowser.open("https://headeraser413.wixsite.com/tankmania")
+        webbrowser.open("http://tankmania.infinityfreeapp.com/")
         
         
     def fenetre_aide(self):
